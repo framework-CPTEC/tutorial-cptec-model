@@ -35,3 +35,6 @@ Exemplos
    :width: 20%
 
 |pic1| - |pic2| - |pic3| - |pic4|
+
+
+See :download:`this example script <../example.py>`.
