@@ -20,5 +20,5 @@ Exemplos
    :width: 200px
    :height: 100px
    :scale: 50 %
-   :alt: alternate text
+   :alt: pedido
    :align: right
