@@ -17,6 +17,6 @@ Exemplos
 
 
 .. image:: pedido.png
-   :scale: 50 %
+   :scale: 70 %
    :alt: pedido
    :align: center
