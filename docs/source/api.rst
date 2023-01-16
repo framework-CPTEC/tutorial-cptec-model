@@ -4,12 +4,19 @@ Como Usar
 .. code-block:: console
 
     import cptecmodel.CPTEC_BAM as BAM
+    
     bam = BAM.model()
+    
     date = '2023010800'
+    
     vars = ['t', 'u10m']
+    
     levels = [1000, 850]
+    
     steps = 3
+    
     f = bam.load(date=date, var=vars,level=levels, steps=steps)
+    
 
 **Observações**
 
