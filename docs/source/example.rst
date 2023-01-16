@@ -37,4 +37,4 @@ Exemplos
 |pic1| - |pic2| - |pic3| - |pic4|
 
 
-See :download:`this example script <plot_ponto.png>`.
+See :download:`this example script <SCRIPTS/Example_lib_Widgets.ipynb>`.
