@@ -1,6 +1,16 @@
 Como Usar
 =========
 
+**Modelos**
+
+BAM - import cptecmodel.CPTEC_BAM as BAM
+
+ETA - import cptecmodel.CPTEC_ETA as ETA
+
+GFS - import cptecmodel.CPTEC_GFS as GFS
+
+WRF - import cptecmodel.CPTEC_WRF as WRF
+
 .. code-block:: console
 
     import cptecmodel.CPTEC_BAM as BAM
