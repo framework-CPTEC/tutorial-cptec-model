@@ -17,8 +17,6 @@ Exemplos
 
 
 .. image:: pedido.png
-   :width: 200px
-   :height: 100px
    :scale: 50 %
    :alt: pedido
-   :align: right
+   :align: center
