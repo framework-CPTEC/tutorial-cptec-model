@@ -20,3 +20,18 @@ Exemplos
    :scale: 70 %
    :alt: pedido
    :align: center
+
+
+.. |pic1| image:: img1.png
+   :width: 20%
+
+.. |pic2| image:: img2.png
+   :width: 20%
+   
+.. |pic1| image:: img1.png
+   :width: 20%
+
+.. |pic2| image:: img2.png
+   :width: 20%
+
+|pic1| - |pic2| - |pic1| - |pic2|
