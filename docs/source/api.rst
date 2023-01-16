@@ -1,5 +1,5 @@
-API
-===
+Como Usar
+=========
 
 .. autosummary::
    :toctree: generated
