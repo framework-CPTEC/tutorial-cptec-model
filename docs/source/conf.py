@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'CPTEC-Model'
+copyright = '2023, Framework CPTEC'
+author = 'Framework CPTEC'
 
 release = '0.1'
 version = '0.1.0'
