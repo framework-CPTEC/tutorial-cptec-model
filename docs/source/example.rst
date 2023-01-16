@@ -22,16 +22,16 @@ Exemplos
    :align: center
 
 
-.. |pic1| image:: img1.png
+.. |pic1| image:: filtro_area.png
    :width: 20%
 
-.. |pic2| image:: img2.png
+.. |pic2| image:: filtro_ponto.png
    :width: 20%
    
-.. |pic1| image:: img1.png
+.. |pic3| image:: plot_area.png
    :width: 20%
 
-.. |pic2| image:: img2.png
+.. |pic4| image:: plot_ponto.png
    :width: 20%
 
-|pic1| - |pic2| - |pic1| - |pic2|
+|pic1| - |pic2| - |pic3| - |pic4|
