@@ -1,7 +1,8 @@
 Como Usar
 =========
 
- :
+.. code-block:: console
+
     import cptecmodel.CPTEC_BAM as BAM
     bam = BAM.model()
     date = '2023010800'
@@ -10,7 +11,8 @@ Como Usar
     steps = 3
     f = bam.load(date=date, var=vars,level=levels, steps=steps)
 
-Observações
+**Observações**
+
 Após a inicialização do Modelo Específico algumas configurações são plotadas.
 
 Ex.:
@@ -25,10 +27,7 @@ levels (hPa): 1000 925 850 775 700 500 400 300 250 200 150 100 70 50 30 20 10 3.
 
 Frequency: every 6 hours [0, 6, 12, 18,...,168].
 
-Usar essas informações para ajudar a definição das variáveis (date,vars,levels,steps)
+**Usar essas informações para ajudar a definição das variáveis (date,vars,levels,steps)**
 
 
-.. autosummary::
-   :toctree: generated
 
-   CPTEC - MODEL
