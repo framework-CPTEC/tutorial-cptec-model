@@ -14,3 +14,11 @@ Exemplos
     
         Welcome
         Welcome to our site!
+
+
+.. image:: exemplo1.png
+   :width: 200px
+   :height: 100px
+   :scale: 50 %
+   :alt: alternate text
+   :align: right
