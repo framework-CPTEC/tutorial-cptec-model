@@ -16,7 +16,7 @@ Exemplos
         Welcome to our site!
 
 
-.. image:: exemplo1.png
+.. image:: pedido.png
    :width: 200px
    :height: 100px
    :scale: 50 %
