@@ -11,6 +11,8 @@ GFS - import cptecmodel.CPTEC_GFS as GFS
 
 WRF - import cptecmodel.CPTEC_WRF as WRF
 
+**Usando o Modelo BAM**
+
 .. code-block:: console
 
     import cptecmodel.CPTEC_BAM as BAM
