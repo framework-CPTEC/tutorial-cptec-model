@@ -2,6 +2,7 @@ Exemplos
 ========
 
 Teste
+-----
 
 .. toctree::
    :maxdepth: 2
