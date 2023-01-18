@@ -1,17 +1,11 @@
-Welcome to Lumache's documentation!
-===================================
+CPTEC - MODEL Documentação
+===========================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
-
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+É um pacote in Python para a distribuição de dados brutos dos Modelos Numéricos de forma segmentada/particionada. Com esse pacote o usuário não necessita fazer o Download de todo o volume bruto o pacote auxilia a manipular somente a sua necessidade.
 
 .. note::
 
-   This project is under active development.
+   support Python >= 3.10
 
 Contents
 --------
@@ -21,3 +15,10 @@ Contents
    usage
    api
    example
+   
+.. toctree::
+   :maxdepth: 2
+   :caption: Examples:
+
+   examples/cartoee_simple.ipynb
+   examples/cartoee_projections.ipynb
