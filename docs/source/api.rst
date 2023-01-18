@@ -30,11 +30,11 @@ WRF - import cptecmodel.CPTEC_WRF as WRF
     f = bam.load(date=date, var=vars,level=levels, steps=steps)
     
 
-**Observações**
+.. note::
 
-Após a inicialização do Modelo Específico algumas configurações são plotadas.
+    Após a inicialização do Modelo Específico algumas configurações são plotadas.
 
-Ex.:
+
 
 The Brazilian Global Atmospheric Model (TQ0666L064 / Hybrid)
 
