@@ -20,9 +20,9 @@ Contents
    :maxdepth: 2
    :caption: Examples Py:
 
-   example/Example_lib.ipynb
-   example/Example_lib_Widgets.ipynb
-   example/Example_lib_regrid.ipynb
+   examples/Example_lib.ipynb
+   examples/Example_lib_Widgets.ipynb
+   examples/Example_lib_regrid.ipynb
 
 
 
@@ -30,9 +30,9 @@ Contents
    :maxdepth: 2
    :caption: Examples Jupyter:
 
-   example/Example_lib.ipynb
-   example/Example_lib_Widgets.ipynb
-   example/Example_lib_regrid.ipynb
+   examples/Example_lib.ipynb
+   examples/Example_lib_Widgets.ipynb
+   examples/Example_lib_regrid.ipynb
     
 .. toctree::
    :maxdepth: 2
