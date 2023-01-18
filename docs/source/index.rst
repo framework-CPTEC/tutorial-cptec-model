@@ -20,9 +20,9 @@ Contents
    :maxdepth: 2
    :caption: Examples Py:
 
-   examples/Example_lib.ipynb
-   examples/Example_lib_Widgets.ipynb
-   examples/Example_lib_regrid.ipynb
+   Example_lib.ipynb
+   Example_lib_Widgets.ipynb
+   Example_lib_regrid.ipynb
 
 
 
