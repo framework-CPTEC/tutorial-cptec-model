@@ -6,7 +6,7 @@
 cptec-model
 ===================================
 
-:code:`cartoee` is a simple Python package used for making publication quality
+:code:`cptec` is a simple Python package used for making publication quality
 maps from `Earth Engine <https://earthengine.google.com/>`_ results using
 `Cartopy <https://scitools.org.uk/cartopy/docs/latest/>`_ without having to
 export results from Earth Engine.
