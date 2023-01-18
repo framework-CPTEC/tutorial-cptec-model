@@ -21,8 +21,6 @@ Contents
    :caption: Examples Py:
 
    Example_lib-checkpoint.ipynb
-   Example_lib_Widgets.ipynb
-   Example_lib_regrid.ipynb
 
 
 
