@@ -19,9 +19,9 @@ sys.path.insert(0, os.path.abspath('..'))
 
 # -- Project information -----------------------------------------------------
 
-project = 'cartoee'
-copyright = '2019, Kel Markert'
-author = 'Kel Markert'
+project = 'cptec-model'
+copyright = '2023, Framework CPTEC'
+author = 'Framework CPTEC'
 
 # The short X.Y version
 version = 'latest'
@@ -110,7 +110,7 @@ html_static_path = ['_static']
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'cartoeedoc'
+htmlhelp_basename = 'cptec-modeldoc'
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -137,8 +137,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'cartoee.tex', 'cartoee Documentation',
-     'Kel Markert', 'manual'),
+    (master_doc, 'cptecmodel.tex', 'cptecmodel Documentation',
+     'Framework CPTEC', 'manual'),
 ]
 
 
@@ -147,7 +147,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'cartoee', 'cartoee Documentation',
+    (master_doc, 'cptecmodel', 'cptecmodel Documentation',
      [author], 1)
 ]
 
@@ -158,8 +158,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'cartoee', 'cartoee Documentation',
-     author, 'cartoee', 'One line description of project.',
+    (master_doc, 'cptecmodel', 'cptecmodel Documentation',
+     author, 'cptecmodel', 'One line description of project.',
      'Miscellaneous'),
 ]
 
