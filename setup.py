@@ -28,8 +28,8 @@ setup(name='cptec-model',
       ],
       entry_points={
         'console_scripts': [
-            'cee_install_test = cartoee.tests.installation_test:main',
-            'cee_plotting_test = cartoee.tests.plotting_test:main'
+            'cee_install_test = cptecmodel.tests.installation_test:main',
+            'cee_plotting_test = cptecmodel.tests.plotting_test:main'
         ],
       },
 )
