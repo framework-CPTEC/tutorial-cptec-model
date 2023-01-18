@@ -20,5 +20,6 @@ Contents
    :maxdepth: 2
    :caption: Examples:
 
-   examples/cartoee_simple.ipynb
-   examples/cartoee_projections.ipynb
+   Example_lib.ipynb
+   Example_lib_Widgets.ipynb
+   Example_lib_regrid.ipynb
