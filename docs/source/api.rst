@@ -32,8 +32,10 @@ WRF - import cptecmodel.CPTEC_WRF as WRF
 
 .. note::
 
-    Após a inicialização do Modelo Específico algumas configurações são plotadas.
-
+    Após a inicialização do Modelo Específico 
+    bam = BAM.model()
+    algumas configurações (date,vars,levels,steps)
+    são plotadas.
 
 
 The Brazilian Global Atmospheric Model (TQ0666L064 / Hybrid)
@@ -46,14 +48,4 @@ levels (hPa): 1000 925 850 775 700 500 400 300 250 200 150 100 70 50 30 20 10 3.
 
 Frequency: every 6 hours [0, 6, 12, 18,...,168].
 
-**Usar essas informações para ajudar a definição das variáveis (date,vars,levels,steps)**
 
-
-.. code-block:: bash
-
-    $ cee_install_test
-
-.. note::
-
-    - If your local machine is not yet authenticated for Earth Engine, the
-      :code:`cee_install_test` will walk you through the authentication process.
