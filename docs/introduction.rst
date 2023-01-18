@@ -1,92 +1,55 @@
-Overview
-===================================
 
-.. toctree::
-   :hidden:
-   :maxdepth: 2
-   :caption: Contents:
+Instalação
+-----------
 
+Criar ambiente conda
+conda create -n cptec python=3.10
 
-:code:`cartoee` is a simple Python package used for making publication quality
-maps from `Earth Engine <https://earthengine.google.com/>`_ results using
-`Cartopy <https://scitools.org.uk/cartopy/docs/latest/>`_ without having to
-download results.
+conda activate cptec
 
-This packages aims to do only one thing well: getting processing results from
-Earth Engine into a publication quality mapping interface. :code:`cartoee`
-simply gets results from Earth Engine and plots it with the correct geographic
-projections leaving :code:`ee` and :code:`cartopy` to do more of the processing
-and visualization.
+Instalar Pacotes
+conda install -c conda-forge matplotlib pycurl cfgrib netCDF4 pynio xarray dask esmpy scipy mpi4py xesmf
 
-A typical Earth Engine workflow includes:
+Instalar Pacote
+Via pip
+pip install -i https://test.pypi.org/simple/ cptec-model
 
-1. Processing your data on Earth Engine
-2. Exporting your data from Earth Engine
-3. Creating maps of your results
+Via fonte
+git clone https://github.com/framework-CPTEC/CPTEC-user.git
 
-Here, we omit the 2nd step and merge steps 1 and 3 into one step. This allows
-users to process their data using the Python Earth Engine API and quickly
-create a map.
+cd CPTEC-user
 
-Installation
--------------
+python setup.py install
 
-:code:`cartoee` is available to install via :code:`pip`. To install the package,
-you can use pip  install for your Python environment:
+Uso
+import cptecmodel.CPTEC_BAM as BAM
 
-.. code-block:: bash
+bam = BAM.model()
 
-  $ pip install cartoee
+date = '2023010800'
 
-Or, you can install the package manually from source code using the following commands:
+vars = ['t', 'u10m']
 
-.. code-block:: bash
+levels = [1000, 850]
 
-  $ git clone https://github.com/kmarkert/cartoee.git
-  $ cd cartoee
-  $ python setup.py install
+steps = 3
 
-Dependencies
-~~~~~~~~~~~~~
+f = bam.load(date=date, var=vars,level=levels, steps=steps)
 
-:code:`cartoee` is built using pure Python code however relies on a few dependencies
-(`earthengine-api <https://developers.google.com/earth-engine/>`_ and cartopy_)
-that are available. These additional Python packages have their own dependencies
-and users are referred to the dependencies documentation for full installation
-instructions:
+Observações
+Após a inicialização do Modelo Específico algumas configurações são plotadas.
 
-* `Matplotlib installation <https://matplotlib.org/users/installing.html>`_
-* `Earth Engine API installation <https://developers.google.com/earth-engine/python_install_manual>`_
-* `Cartopy installation <https://scitools.org.uk/cartopy/docs/latest/installing.html#installing>`_
+Ex.:
 
-Using the :code:`pip install` command will install all of the necessary dependencies
-needed for using cartoee.
+The Brazilian Global Atmospheric Model (TQ0666L064 / Hybrid)
 
-.. warning::
+Forecast data available for reading between 20221211 and 20221221.
 
-    - Before installing cartoee, the cartopy requires the `GEOS
-      <https://geos.osgeo.org/doxygen/>`_ and `Proj4
-      <https://proj4.org/>`_ libraries installed on your system before
-      being able to properly install.
+Surface variables: t2m, u10m, v10m, slp, psfc, precip terrain, sbcape, sbcin, pw. Level variables: t, u, v, rh, g, omega.
 
-Additional steps need to be taken to authenticate your local machine to use
-the Earth Engine API. You can do this using the following command and follow
-the instructions:
+levels (hPa): 1000 925 850 775 700 500 400 300 250 200 150 100 70 50 30 20 10 3.
 
-.. code-block:: bash
+Frequency: every 6 hours [0, 6, 12, 18,...,168].
 
-    $ earthengine authenticate
+Usar essas informações para ajudar a definição das variáveis (date,vars,levels,steps)
 
-To test that cartoee and all of the dependencies have been installed correctly,
-run the following command:
-
-.. code-block:: bash
-
-    $ cee_install_test
-
-.. note::
-
-    - If your local machine is not yet authenticated for Earth Engine, the
-      :code:`cee_install_test` will walk you through the authentication process.
-
-If all of the test are successful, you will see no 'failed' when the test is done.
