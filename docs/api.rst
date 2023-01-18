@@ -1,4 +1,4 @@
-cartoee API
+cptec API
 ===================================
 
 .. toctree::
