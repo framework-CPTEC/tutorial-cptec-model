@@ -5,9 +5,6 @@ Credits
 Maintainer
 ----------
 
-* Kel Markert <kel.markert@gmail.commit>
+* Felipe Odorizi <felipeodorizi@gmail.com>
 
-Contributors
-------------
 
-None yet. Why not be the first? See: CONTRIBUTING.rst
