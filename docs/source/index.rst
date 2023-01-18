@@ -20,7 +20,7 @@ Contents
    :maxdepth: 2
    :caption: Examples Py:
 
-   Example_lib.ipynb
+   Example_lib-checkpoint.ipynb
    Example_lib_Widgets.ipynb
    Example_lib_regrid.ipynb
 
