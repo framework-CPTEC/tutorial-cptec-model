@@ -1,16 +1,6 @@
 Exemplos
 ========
 
-Teste
------
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Examples Py:
-
-   examples/Example_lib.ipynb
-
-
 Exemplo 1
 ---------
 
