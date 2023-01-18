@@ -1,6 +1,15 @@
 Exemplos
 ========
 
+.. toctree::
+   :maxdepth: 2
+   :caption: Examples Py:
+
+   Example_lib-checkpoint.ipynb
+   examples/Example_lib_Widgets.ipynb
+   Example_lib_regrid.ipynb
+
+
 Exemplo 1
 ---------
 
