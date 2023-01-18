@@ -33,7 +33,7 @@ and visualization.
    examples/cartoee_projections.ipynb
    examples/cartoee_colorbars.ipynb
    examples/cartoee_multimaps.ipynb
-
+   examples/Example_lib.ipynb
 
 .. toctree::
   :maxdepth: 2
