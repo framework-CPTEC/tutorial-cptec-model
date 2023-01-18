@@ -8,7 +8,7 @@ Teste
    :maxdepth: 2
    :caption: Examples Py:
 
-   api.rst
+   examples/Example_lib.ipynb
 
 
 Exemplo 1
