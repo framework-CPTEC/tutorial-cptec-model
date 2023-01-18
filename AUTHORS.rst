@@ -5,6 +5,6 @@ Credits
 Maintainer
 ----------
 
-* Felipe Odorizi <felipeodorizi@gmail.com>
+* Framework CPTEC <frameworkcptec@gmail.com>
 
 
