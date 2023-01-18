@@ -36,19 +36,16 @@ Contents
     
 .. toctree::
    :maxdepth: 2
-   :caption: Introduction:
+   :caption: Instalação:
 
-   introduction.rst
+   usage.rst
 
 
 .. toctree::
    :maxdepth: 2
-   :caption: Examples:
+   :caption: Como Usar:
 
-   examples/cartoee_simple.ipynb
-   examples/cartoee_projections.ipynb
-   examples/cartoee_colorbars.ipynb
-   examples/cartoee_multimaps.ipynb
+   api.rst
 
 
 .. toctree::
