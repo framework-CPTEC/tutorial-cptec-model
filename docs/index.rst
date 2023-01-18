@@ -18,10 +18,8 @@ support Python >= 3.10.
    :maxdepth: 2
    :caption: Examples:
 
-   examples/cartoee_simple.ipynb
-   examples/cartoee_projections.ipynb
-   examples/cartoee_colorbars.ipynb
-   examples/cartoee_multimaps.ipynb
+   examples/Example_lib_regrid.ipynb
+   examples/Example_lib_Widgets.ipynb
    examples/Example_lib.ipynb
 
 .. toctree::
