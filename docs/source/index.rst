@@ -33,3 +33,31 @@ Contents
    Example_lib.ipynb
    Example_lib_Widgets.ipynb
    Example_lib_regrid.ipynb
+    
+.. toctree::
+   :maxdepth: 2
+   :caption: Introduction:
+
+   introduction.rst
+
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Examples:
+
+   examples/cartoee_simple.ipynb
+   examples/cartoee_projections.ipynb
+   examples/cartoee_colorbars.ipynb
+   examples/cartoee_multimaps.ipynb
+
+
+.. toctree::
+  :maxdepth: 2
+  :caption: API Reference:
+
+  api.rst
+
+Contact:
+ Cartoee is on GitHub at https://github.com/kmarkert/cartoee. Please report issues there.
+   
+   
