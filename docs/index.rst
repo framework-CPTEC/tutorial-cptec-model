@@ -6,16 +6,9 @@
 cptec-model
 ===================================
 
-:code:`cptec` is a simple Python package used for making publication quality
-maps from `Earth Engine <https://earthengine.google.com/>`_ results using
-`Cartopy <https://scitools.org.uk/cartopy/docs/latest/>`_ without having to
-export results from Earth Engine.
+:code:`cptec-model` É um pacote in Python para a distribuição de dados brutos dos Modelos Numéricos de forma segmentada/particionada. Com esse pacote o usuário não necessita fazer o Download de todo o volume bruto o pacote auxilia a manipular somente a sua necessidade.
 
-This packages aims to do only one thing well: getting processing results from
-Earth Engine into a publication quality mapping interface. :code:`cartoee`
-simply gets results from Earth Engine and plots it with the correct geographic
-projections leaving :code:`ee` and :code:`cartopy` to do more of the processing
-and visualization.
+support Python >= 3.10.
 
 
 .. toctree::
@@ -42,4 +35,4 @@ and visualization.
   api.rst
 
 Contact:
- Cartoee is on GitHub at https://github.com/kmarkert/cartoee. Please report issues there.
+ cptec-model is on GitHub at https://github.com/framework-CPTEC/CPTEC-user 
